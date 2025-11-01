@@ -36,5 +36,6 @@ To make OrangeMonkey work in Chrome, do the following:
 
 - Allow Userscripts
 - Enable Developer mode toggle on the top right corner
+- Make sure the extension settings tab is kept open
 
 ![OrangeMonkey Settings](images/om-settings.png)
