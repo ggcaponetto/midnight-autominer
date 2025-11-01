@@ -1,4 +1,4 @@
-# Midnight Scavenger Mine Autoresume
+# Midnight Scavenger Mine Autominer
 
 [![forthebadge](./images/powered-by-hosky-shit.svg)](https://forthebadge.com)
 
