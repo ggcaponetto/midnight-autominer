@@ -1,5 +1,5 @@
 "use strict";
-const version = "1.0.1";
+const version = "1.0.2";
 console.log(`🛠️ Midnight Scavenger AutoMiner Script v${version} initialized.`);
 async function pause(milliseconds) {
     await new Promise((resolve) => setTimeout(resolve, milliseconds));
