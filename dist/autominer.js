@@ -92,14 +92,14 @@ window.onerror = function (message, source, lineno, colno, error) {
     if (document.readyState === "complete") {
         console.log("🛠️ Document already loaded, starting auto-resume immediately.");
         await pause(1000);
-        await startAutoResume(15000);
+        await startAutoResume(30000);
         await pause(1000);
     }
     else {
         window.addEventListener("load", async function () {
             console.log("🛠️ Document loaded, starting auto-resume.");
             await pause(1000);
-            await startAutoResume(15000);
+            await startAutoResume(30000);
             await pause(1000);
         });
     }
