@@ -1,4 +1,4 @@
-const version = "1.0.2";
+const version = "1.0.3";
 console.log(`🛠️ Midnight Scavenger AutoMiner Script v${version} initialized.`);
 
 async function pause(milliseconds: number) {
@@ -118,13 +118,13 @@ window.onerror = function (message, source, lineno, colno, error) {
       "🛠️ Document already loaded, starting auto-resume immediately."
     );
     await pause(1000);
-    await startAutoResume(30000);
+    await startAutoResume(40000);
     await pause(1000);
   } else {
     window.addEventListener("load", async function () {
       console.log("🛠️ Document loaded, starting auto-resume.");
       await pause(1000);
-      await startAutoResume(30000);
+      await startAutoResume(40000);
       await pause(1000);
     });
   }

@@ -1,4 +1,4 @@
-declare const version = "1.0.2";
+declare const version = "1.0.3";
 declare function pause(milliseconds: number): Promise<void>;
 declare function findStartSessionButton(): HTMLButtonElement | undefined;
 declare function startMiningSession(): Promise<void>;
